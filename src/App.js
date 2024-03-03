@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Mouse from './mouse/Mouse';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          <Mouse></Mouse>
         </a>
       </header>
     </div>
